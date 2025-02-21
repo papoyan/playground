@@ -7,14 +7,14 @@ spec:
   revisionHistoryLimit: 3
   selector:
     matchLabels:
-      app: playground-ui
+      app: playground-app
   template:
     metadata:
       labels:
-        app: playground-ui
+        app: playground-app
     spec:
       containers:
       - image: finallyzara/webapp:3.4
-        name: playground-ui
+        name: playground-app
         ports:
         - containerPort: 80
