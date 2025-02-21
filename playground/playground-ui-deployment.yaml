@@ -14,7 +14,7 @@ spec:
         app: playground-ui
     spec:
       containers:
-      - image: finallyzara/webapp:3.3
+      - image: finallyzara/webapp:3.4
         name: playground-ui
         ports:
         - containerPort: 80
