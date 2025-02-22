@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: playground-app
 spec:
-  replicas: 1000
+  replicas: 2
   revisionHistoryLimit: 3
   selector:
     matchLabels:
